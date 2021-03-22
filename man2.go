@@ -2,9 +2,27 @@ package main
 
 import "fmt"
 
+func add_values(a int, b int) int {
+
+	var c = a + b
+
+	return c
+}
+
 func main() {
-	fmt.Printf("hello world")
-	fmt.Printf("hello world hiii")
-	fmt.Printf("hello world jiii")
-	fmt.Printf("how r u")
+
+	var a, b, c int
+
+	fmt.Println("Enter 1st Number: ")
+
+	fmt.Scan(&a)
+
+	fmt.Println("Enter 2nd Number: ")
+
+	fmt.Scan(&b)
+
+	c = add_values(a, b)
+
+	fmt.Printf("Sum: %d \n", c)
+
 }
