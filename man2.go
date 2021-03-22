@@ -6,5 +6,5 @@ func main() {
 	fmt.Printf("hello world")
 	fmt.Printf("hello world hiii")
 	fmt.Printf("hello world jiii")
-	fmt.Printf("hello worldgir")
+	fmt.Printf("how r u")
 }
