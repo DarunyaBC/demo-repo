@@ -26,3 +26,15 @@ func main() {
 	fmt.Printf("Sum: %d \n", c)
 
 }
+
+fmt.Scan(&a)
+
+fmt.Println("Enter Second Number: ")
+
+fmt.Scan(&b)
+
+c = add_values(a, b)
+
+fmt.Printf("Sum: %d \n", c)
+
+}
