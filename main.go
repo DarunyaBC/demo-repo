@@ -13,11 +13,11 @@ func main() {
 
 	var a, b, c int
 
-	fmt.Println("Enter 1st Number: ")
+	fmt.Println("Enter first Number: ")
 
 	fmt.Scan(&a)
 
-	fmt.Println("Enter 2nd Number: ")
+	fmt.Println("Enter Second Number: ")
 
 	fmt.Scan(&b)
 
